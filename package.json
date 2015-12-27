@@ -1,0 +1,25 @@
+{
+  "name": "gulp-babel-compile",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nev64/gulp-babel-compile.git"
+  },
+  "author": {
+    "email": "anton.kukharenko@outlook.com",
+    "name": "Anton Kukharenko"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nev64/gulp-babel-compile/issues"
+  },
+  "homepage": "https://github.com/nev64/gulp-babel-compile#readme",
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "gulp-util": "^3.0.7",
+    "lodash": "^3.10.1",
+    "through2": "^2.0.0"
+  }
+}
