@@ -23,7 +23,8 @@ gulp.task('default', () => {
         gulp.src('src/**/*.js')
             .pipe(babel({
                 presets: ['es2015'],
-                sourceMap: true
+                sourceMap: true,
+                sourceRoot: 'src'
             }))
             .pipe(gulp.dest('out'));
 	});
